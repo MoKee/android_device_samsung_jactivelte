@@ -29,7 +29,7 @@ PRODUCT_MANUFACTURER := Samsung
 PRODUCT_MODEL := GT-I9295
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=jactivelte \
+    PRODUCT_NAME=jactiveltexx \
     TARGET_DEVICE=jactivelte \
     PRIVATE_BUILD_DESC="jactiveltexx-user 5.0.1 LRX22C I9295XXUDPF1 release-keys"
 

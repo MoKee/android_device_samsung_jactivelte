@@ -23,7 +23,7 @@
 PRODUCT_LOCALES := en-GB
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := jactive,jactivelte,jactiveltexx,i9295,GT-I9295
+TARGET_OTA_ASSERT_DEVICE := jactivelte
 
 # Kernel
 TARGET_KERNEL_VARIANT_CONFIG := jactive_eur_defconfig

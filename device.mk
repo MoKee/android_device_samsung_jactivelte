@@ -26,5 +26,5 @@ DEVICE_PACKAGE_OVERLAYS += device/samsung/jactivelte/overlay
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.gsm.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.telephony.gsm.xml
 
-# call jactivelte system props
+# System properties
 $(call inherit-product, device/samsung/jactivelte/system_prop.mk)
