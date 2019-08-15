@@ -13,4 +13,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_jactivelte.mk
+    $(LOCAL_DIR)/mk_jactivelte.mk

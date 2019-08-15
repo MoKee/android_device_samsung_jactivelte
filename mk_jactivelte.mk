@@ -19,10 +19,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from jactivelte device
 $(call inherit-product, device/samsung/jactivelte/device.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common MK stuff.
+$(call inherit-product, vendor/mk/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_jactivelte
+PRODUCT_NAME := mk_jactivelte
 PRODUCT_DEVICE := jactivelte
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := Samsung
