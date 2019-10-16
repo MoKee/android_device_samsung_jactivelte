@@ -14,7 +14,3 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_jactivelte.mk
-
-COMMON_LUNCH_CHOICES := \
-    lineage_jactivelte-eng \
-    lineage_jactivelte-userdebug
